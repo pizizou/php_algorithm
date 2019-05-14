@@ -37,7 +37,9 @@ function mergeSort($arr)
     $right = array_slice($arr,$middle);
 
 
-    return merge(mergeSort($left),mergeSort($right));
+    return  merge(mergeSort($left),mergeSort($right));
+
+
 
 }
 
